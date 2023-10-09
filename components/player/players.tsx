@@ -13,7 +13,7 @@ export default function Players() {
       {players.map((player) => (
         <>
           {player.id === myPlayer().id ? (
-            <LocalPlayer position={initialPosition} key={player.id} />
+            <LocalPlayer position={[4,0,2]} key={player.id} />
           ) : (
             <RemotePlayer
               key={player.id}

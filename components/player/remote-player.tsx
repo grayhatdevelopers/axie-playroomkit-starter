@@ -45,7 +45,7 @@ export default function RemotePlayer({
         canSleep={true}
         colliders={false}
         enabledRotations={[false, false, false]}
-        position={[0, 5, 0]}
+        position={[6, 0, 2]}
       >
         <CapsuleCollider args={[0.1, 0.2]} />
       </RigidBody>
