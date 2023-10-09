@@ -122,6 +122,7 @@ export default function LocalPlayer({ position }: LocalPlayerProps) {
 
     camera.position.z = translate.z + 2;
     camera.position.x = translate.x;
+    camera.position.y = 5;
     camera.lookAt(playerRef.current.position.clone().setY(1));
   });
 

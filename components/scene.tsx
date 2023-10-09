@@ -20,11 +20,11 @@ export default function Scene() {
       >
         <ambientLight intensity={2} />
 
-        <OrbitControls />
+        {/* <OrbitControls /> */}
 
         <Physics>
           <Floor />
-          <Ball position={[0, 5, 0]} />
+          <Ball position={[5, 5, 2]} />
           <Players />
         </Physics>
       </KeyboardControls>
